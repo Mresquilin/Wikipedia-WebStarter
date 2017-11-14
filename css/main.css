@@ -1,0 +1,81 @@
+body{
+   margin: 2em;
+   text-align: center;
+  
+}
+
+@keyframes example {
+    0%   {transform: rotate(0deg);}
+    50%  {transform: rotate(50deg);}
+    100%  {transform: rotate(100deg);}
+   
+}
+
+.wikiball{
+    position: relative;
+    margin: 1em;
+    text-align: center;
+    animation-name: example;
+}
+
+
+
+#results{
+    Margin: auto;
+    text-align: center;
+
+}
+li:hover{
+   
+    width: auto;
+    height: 125px;
+    border: 5px dotted; 
+    box-shadow: 10px 10px  
+    rgb(119, 116, 116);
+}
+
+li{
+    border-radius: 25px;
+    /* margin: 1.4em;
+    
+    width: 1000px;
+    height: 140px;
+    transition: 5s;
+    background: rgb(9, 65, 87);
+    position: relative;
+    -webkit-animation: mymove 3s;  
+    -webkit-animation-fill-mode: forwards; 
+    animation: mymove 3s;
+    animation-fill-mode: forwards; */
+    padding: 1em;   
+    width: auto;
+    height: 100px;
+    background: rgb(177, 146, 146);
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+     box-shadow: 10px 10px 5px 
+     rgba(119, 117, 117, 0.644);
+ }
+
+ @keyframes mymove {
+
+    from {top: 1px;}
+    to {top: 0px;}
+    
+}
+
+.listItem{
+    background-color: rgb(189, 190, 204);
+    border: 3px solid rgb(0, 0, 0);
+    
+
+
+}
+
+.listItem p{
+    background-color: rgba(8, 10, 121, 0.747);
+    opacity: .87;
+}
+.listItem a{
+    background-color: rgba(3, 26, 128, 0.76);
+}
